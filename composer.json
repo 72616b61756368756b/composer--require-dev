@@ -1,0 +1,30 @@
+{
+    "name": "rakauchuk/composer--require-dev",
+    "description": "",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rakauchuk/dev-tools"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/rakauchuk/dev-tests"
+        }
+    ],
+    "require": {
+        "rakauchuk/dev-tools": "^1.0.0",
+        "rakauchuk/dev-tests": "^1.0.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "4.4.16"
+        }
+    }
+}
